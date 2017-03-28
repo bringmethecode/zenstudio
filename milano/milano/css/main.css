@@ -2,9 +2,6 @@ body, html {
   margin: 0;
   font-family: "Lato", sans-serif; }
 
-@media screen and (max-width: 700px) {
-  .flex {
-    flex-direction: column; } }
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -69,5 +66,9 @@ body, html {
   background-image: url("../images/pastel1.png");
   background-position: center;
   background-size: cover; }
+
+@media screen and (max-width: 700px) {
+  .flex {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=main.css.map */
